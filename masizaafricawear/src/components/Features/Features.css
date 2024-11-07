@@ -1,0 +1,35 @@
+.features {
+    text-align: center;
+    padding: 30px 20px;
+}
+.features h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.features .description {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 40px;
+}
+.card_container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.card .icon {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+.card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}

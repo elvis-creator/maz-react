@@ -1,0 +1,46 @@
+.hero {
+    height: 90vh;
+    background-color: #afe1af;
+}
+.hero_content {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 100px;
+    gap: 20px;
+}
+.hero_left {
+    max-width: 50%;
+    margin-top: 100px;
+    display:flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.hero_left h1 {
+    font-size: 5.2rem;
+    margin-top: 10px;
+}
+.hero_left text {
+    margin-top: 13px;
+    font-size: 18px;
+    color: #666;
+}
+.hero_left .price {
+    color: #000;
+    font-size: 32px;
+    font-weight: bold;
+}
+.hero_left .cta{
+    width: 40%;
+    padding: 1rem 3rem;
+    color: #fff;
+    background-color: #043927;
+    border: none;
+}
+.hero_right {
+    max-width: 50%;
+}
+.hero_right img {
+    width: 640px;
+    height: 500px ;
+    object-fit: contain;
+}
