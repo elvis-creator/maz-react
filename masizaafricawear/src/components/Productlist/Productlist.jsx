@@ -4,7 +4,7 @@ import './Productlist.css'
 import { IoMdCloseCircle } from 'react-icons/io';
 
 function Productlist() {
-  const { products } = useContext(ShopContext);
+  const { products,addToCart } = useContext(ShopContext);
 
   const [modal, setModal] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState(null);
@@ -32,7 +32,7 @@ function Productlist() {
                 <h3>{title}</h3>
                 <p>${price}</p>
                 </div>
-                <button className="add-to-cart">Add to Cart</button>
+                <button className="add-to-cart" onClick={()=> addToCart(product, id)}>Add to Cart</button>
                 
                 
               </div>
